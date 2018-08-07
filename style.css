@@ -1,0 +1,145 @@
+body{
+		font-family: 'Roboto', sans-serif;
+}
+.main-flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	/*border: 3px solid black;*/
+}
+.name-list {
+	width: 35%;
+	max-width: 35%:
+	min-width: 25%;
+	margin: 2px;
+	height: 638px;
+	padding: 0px;
+	overflow-y: scroll; 
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.fa-envelope{
+	font-size: 20px;
+	margin: 5px;
+	color: red;
+} 
+.fa-phone {
+	font-size: 20px;
+	margin: 5px;
+	color: green;
+}
+.imgee {
+	font-size: 100px;
+}
+.details-container {
+	height: 638px;
+	margin: 2px;
+	width: 69%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #f1f1f185;
+	/*border: 3px solid green;*/
+}
+.details-area  {
+	width: 60%;
+	height: 500px;
+	/*border: 2px solid black;*/
+	text-align: center;
+	align-items: top;
+}
+.list-item {
+	height: 80px;
+	width: 95%;
+	padding: 3px 5px; 
+	/*border: 1px solid blue;*/
+	display: flex;
+	align-items: center;
+	background-color: ;
+	cursor: pointer;
+	border-bottom: 1px solid gray;
+	/*justify-content: space-between; */
+}
+.list-item:hover {
+	background-color: #d0cdcd;
+}
+.fa-user-circle {
+	font-size: 50px;
+	margin: 2px;
+}
+.names-flex {
+	width: 100%;
+	/*height: 50px;*/
+	/*border: 1px solid red; */
+	align-items: center;
+	
+}
+.spans-1 {
+	/*width: 100%;*/
+	/*border: 1px solid green;*/
+	display: flex;
+	justify-content: space-between;
+	margin: 10px;
+}
+.spans {
+	margin: 10px;
+	display: block;
+}
+.fa-check-double {
+	font-size: 15px;
+	color: #009fff;
+}
+.first-display-text {
+	text-align: center;
+	margin: 0px;
+	color: gray;
+}
+.image {
+	height: 170px;
+}
+.name {
+	margin: 0px;
+	font-size: 35px;
+	padding-bottom: 10px; 
+}
+.number, .email, .button-div {
+	font-weight: bold;
+	padding: 5px;
+}
+.para {
+	font-size: 14px;
+}
+.absolute-container {
+	position: absolute;
+	border: 1px solid red;
+	width: 100%;
+	display: none;
+	/*display: flex;*/
+	justify-content: center;
+	background-color: #00000052;
+
+
+}
+.absolute {
+	height: 638px;
+	background-color: #000000a6;
+	width: 90%;
+	text-align: center;
+	align-items: center;
+	border: 1px solid green;
+} 
+.test {
+	font-size: 50px;
+	color: white;
+}
+.calling-text  {
+	font-size: 50px;
+}
+.accept {
+	margin: 20px;
+	font-size: 25px;
+	padding: 5px;
+	border-radius: 50px;
+	outline-style: none;
+}
